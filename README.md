@@ -1,4 +1,4 @@
 iPlugin
 =======
 
-This is a project to attend NTx Apps Challenge.
+This is a project for NTx Apps Challenge.
