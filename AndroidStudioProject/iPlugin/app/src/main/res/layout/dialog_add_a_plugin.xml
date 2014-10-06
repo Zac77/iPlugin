@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_device_id"
+        android:hint="@string/hint_add_a_plugin_device_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_dialog_between_lines"
+        android:id="@+id/editText_sensor_id"
+        android:hint="@string/hint_add_a_plugin_sensor_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_dialog_between_lines"
+        android:id="@+id/editText_nick_name_in_add_a_plugin"
+        android:hint="@string/hint_add_a_plugin_nick_name" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_dialog_between_lines"
+        android:id="@+id/spinner_add_device_type"
+        android:clickable="true"
+        android:visibility="visible"
+        android:entries="@array/device_type"
+        android:prompt="@string/prompt_spinner_device_type" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_dialog_between_lines"
+        android:id="@+id/spinner_add_brand"
+        android:prompt="@string/prompt_spinner_brand" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_dialog_between_lines"
+        android:id="@+id/spinner_add_model"
+        android:prompt="@string/prompt_spinner_model" />
+
+</LinearLayout>

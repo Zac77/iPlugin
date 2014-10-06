@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LoginTheme" parent="android:Theme.Holo.NoActionBar" />
+    <style name="WebPageTheme" parent="android:Theme.Holo.NoActionBar" />
+
+    <!-- Login Activity -->
+    <color name="background_login">#33B5E5</color>
+    <color name="text_button_login">#F7F7F7</color>
+    <color name="text_input_text_view_login">#F7F7F7</color>
+    <color name="text_hint_login">#C0C0C0</color>
+    <color name="text_check_box_login">#F7F7F7</color>
+
+    <!-- Main Activity -->
+    <color name="processBar_green">#99CC00</color>
+    <color name="processBar_red">#FF0000</color>
+    <color name="textView_border_background">#FFFFFF</color>
+    <color name="textView_border">#4FA5D5</color>
+
+</resources>

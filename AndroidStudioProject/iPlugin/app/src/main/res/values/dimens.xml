@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="chart_size_in_plugin_detail">300dp</dimen>
+
+    <dimen name="gap_dialog_between_lines">8dp</dimen>
+    <dimen name="gap_between_ntx_logo_and_buttons_in_login_activity">40dp</dimen>
+    <dimen name="gap_between_elements_in_plugin_detail">16dp</dimen>
+    <dimen name="gap_between_login_buttons">16dp</dimen>
+    <dimen name="gap_between_shop_fragment_spinners">8dp</dimen>
+    <dimen name="gap_between_textViews_user_and_userName">8dp</dimen>
+
+    <dimen name="text_view_height_in_my_plugins_fragment">48dp</dimen>
+    <dimen name="text_view_height_in_shop_fragment">48dp</dimen>
+
+    <dimen name="text_size_comments_in_shop_fragment">16sp</dimen>
+    <dimen name="text_size_downloading">32sp</dimen>
+    <dimen name="text_size_user_in_shop_fragment">24sp</dimen>
+</resources>

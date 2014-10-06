@@ -1,0 +1,99 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PluginDetailFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/progressBar_plugin_detail"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layout_plugin_detail ">
+
+            <com.dfwexcellerator.iplugin.trent3d.CubeSurfaceView
+                android:id="@+id/view_3d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart_plugin_detail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/chart_size_in_plugin_detail"
+                android:layout_marginTop="@dimen/gap_between_elements_in_plugin_detail" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_select_time_range_in_plugin_detail"
+                android:clickable="true"
+                android:visibility="visible"
+                android:entries="@array/time_range_for_plugin_chart"
+                android:prompt="@string/prompt_spinner_time_range" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_consume_in_fragment_for_plugin_detail"
+                android:background="@drawable/textview_border"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="@dimen/gap_between_elements_in_plugin_detail" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_consume_plugin_detail"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/progressbar_power_consumption"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_comment"
+                android:hint="@string/hint_add_a_comment"
+                android:layout_marginTop="@dimen/gap_between_elements_in_plugin_detail" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_save_comment"
+                android:id="@+id/button_save_comment_in_plugin_detail"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_message_in_fragment_for_plugin_detail"
+                android:background="@drawable/textview_border"
+                android:visibility="gone"
+                android:gravity="center|center_vertical|center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_refresh_in_plugin_detail"
+                android:id="@+id/button_refresh_in_fragment_for_plugin_detail"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_delete_plugin"
+                android:id="@+id/button_delete_plugin" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

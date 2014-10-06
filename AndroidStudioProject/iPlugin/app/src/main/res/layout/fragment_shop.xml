@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_device_type"
+        android:layout_marginTop="@dimen/gap_between_shop_fragment_spinners"
+        android:clickable="true"
+        android:visibility="visible"
+        android:entries="@array/device_type"
+        android:prompt="@string/prompt_spinner_device_type" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_brand"
+        android:layout_marginTop="@dimen/gap_between_shop_fragment_spinners"
+        android:prompt="@string/prompt_spinner_brand" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_model"
+        android:layout_marginTop="@dimen/gap_between_shop_fragment_spinners"
+        android:prompt="@string/prompt_spinner_model" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_shop" />
+
+    <LinearLayout
+        android:id="@+id/layout_shop_content"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_comments" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height_in_shop_fragment"
+            android:id="@+id/textView_message_in_shop"
+            android:background="@drawable/textview_border"
+            android:visibility="gone"
+            android:gravity="center|center_vertical|center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_refresh_in_shop"
+            android:id="@+id/button_refresh_in_shop"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_go_to_amazon"
+        android:id="@+id/button_go_to_amazon"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

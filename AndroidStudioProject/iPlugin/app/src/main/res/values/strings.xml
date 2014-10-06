@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iPlugin</string>
+
+    <string-array name="device_type">
+        <item>(Device Type)</item>
+        <item>AirConditioner</item>
+        <item>Microwave</item>
+        <item>Refrigerator</item>
+    </string-array>
+    <string-array name="navigation_drawer_items">
+        <item>My Plugins</item>
+        <item>Shop</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="time_range_for_plugin_chart">
+        <item>10 Mins</item>
+        <item>3 Hours</item>
+        <item>6 Hours</item>
+        <item>24 Hours</item>
+    </string-array>
+
+    <string name="alert_dialog_button_cancel">Cancel</string>
+    <string name="alert_dialog_button_ok">OK</string>
+    <string name="alert_dialog_message_delete_plugin">Do you want to delete this plugin?</string>
+    <string name="alert_dialog_message_invalid_device">Please select a valid device.</string>
+    <string name="alert_dialog_message_logout">Do you want to logout?</string>
+    <string name="alert_dialog_title_add_a_plugin">Add a plugin</string>
+
+    <string name="button_add_new_plugin">Add a new plugin</string>
+    <string name="button_delete_plugin">Delete this plugin</string>
+    <string name="button_forget_password">Forget Password</string>
+    <string name="button_go_to_amazon">Go to Amazon.com</string>
+    <string name="button_login">Login</string>
+    <string name="button_refresh_in_my_plugins">Try again</string>
+    <string name="button_refresh_in_fragment_for_all_plugins_activity">Try again</string>
+    <string name="button_refresh_in_plugin_detail">Try again</string>
+    <string name="button_refresh_in_shop">Try again</string>
+    <string name="button_register">Register</string>
+    <string name="button_save_comment">Save Comment</string>
+
+    <string name="checkbox_auto_login">Auto Login</string>
+    <string name="checkbox_show_password">Show Password</string>
+
+    <string name="description_imageView_device_type">DeviceType</string>
+    <string name="description_imageView_DFWExcellerator_logo">LOGO_DFW_Excellerator</string>
+    <string name="description_imageView_ntx_logo">LOGO_NTx_Apps_Challenge</string>
+    <string name="description_imageView_ntx_energy">LOGO_NTx_Apps_Challenge_Energy</string>
+    <string name="description_imageView_ntx_iot">LOGO_NTx_Apps_Challenge_IoT</string>
+
+    <string name="error_text_view_device_id_required">Device ID is required.</string>
+    <string name="error_text_view_email_required">Email address is required.</string>
+    <string name="error_text_view_incorrect_device">Device ID or Sensor ID is incorrect.</string>
+    <string name="error_text_view_incorrect_password">Email address or password is incorrect.</string>
+    <string name="error_text_view_invalid_email">This email address is invalid.</string>
+    <string name="error_text_view_invalid_password">This password is invalid.</string>
+    <string name="error_text_view_nick_name_required">Nick name is required.</string>
+    <string name="error_text_view_sensor_id_required">Sensor ID is required.</string>
+
+    <string name="hint_add_a_comment">Your comment here.</string>
+    <string name="hint_add_a_plugin_device_id">Device ID</string>
+    <string name="hint_add_a_plugin_sensor_id">Sensor ID</string>
+    <string name="hint_add_a_plugin_nick_name">Nick Name</string>
+    <string name="hint_user_email">Email</string>
+    <string name="hint_user_password">Password</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="prompt_spinner_brand">Select a brand:</string>
+    <string name="prompt_spinner_device_type">Select a device type:</string>
+    <string name="prompt_spinner_model">Select a model:</string>
+    <string name="prompt_spinner_time_range">Select a time range:</string>
+
+    <string name="text_consume_for_a_plugin_begin">Your annual electricity consumption beats</string>
+    <string name="text_consume_for_a_plugin_end">% users.</string>
+    <string name="text_downloading_data_without_percent">Updating Data...</string>
+    <string name="text_downloading_data">Updating: </string>
+    <string name="text_error_in_getting_comments">Some errors occurred. Please try again.</string>
+    <string name="text_error_in_getting_devices">Some errors occurred. Please try again.</string>
+    <string name="text_error_try_again">Some errors occurred. Please try again.</string>
+    <string name="text_no_comments">There is no comments found.</string>
+    <string name="text_no_plugins">There is no plugins found.</string>
+    <string name="text_user">User: </string>
+
+    <string name="toast_add_a_plugin_success">Success</string>
+    <string name="toast_exit">Press back again to exit.</string>
+    <string name="toast_internet_error">Internet connection failed. Please try again.</string>
+
+    <!-- Data for devices -->
+    <string-array name="brands_empty">
+        <item>(Brand)</item>
+    </string-array>
+    <string-array name="brands_air_conditioner">
+        <item>(Brand)</item>
+        <item>Honeywell</item>
+        <item>LG</item>
+        <item>Whynter</item>
+    </string-array>
+    <string-array name="brands_microwave">
+        <item>(Brand)</item>
+        <item>BOSCH</item>
+        <item>Electrolux</item>
+        <item>GE</item>
+    </string-array>
+    <string-array name="brands_refrigerator">
+        <item>(Brand)</item>
+        <item>GE</item>
+        <item>LG</item>
+        <item>Samsung</item>
+    </string-array>
+    <string-array name="models_empty">
+        <item>(Model)</item>
+    </string-array>
+    <string-array name="models_ac_honeywell">
+        <item>(Model)</item>
+        <item>MN12CES</item>
+        <item>MM14CCS</item>
+        <item>MF08CESWW</item>
+    </string-array>
+    <string-array name="models_ac_lg">
+        <item>(Model)</item>
+        <item>LP0814WNR</item>
+        <item>LP1414SHR</item>
+        <item>LP1311BXR</item>
+    </string-array>
+    <string-array name="models_ac_whynter">
+        <item>(Model)</item>
+        <item>ARC-14S</item>
+        <item>ARC-10WB</item>
+        <item>ARC-131GD</item>
+    </string-array>
+    <string-array name="models_mw_bosch">
+        <item>(Model)</item>
+        <item>HMD8451UC</item>
+        <item>HMC87151UC</item>
+        <item>HMC80151UC</item>
+    </string-array>
+    <string-array name="models_mw_electrolux">
+        <item>(Model)</item>
+        <item>EI30SM55JS</item>
+        <item>E30MO75HPS</item>
+        <item>EI30BM55HS</item>
+    </string-array>
+    <string-array name="models_mw_ge">
+        <item>(Model)</item>
+        <item>PNM9196SFSS</item>
+        <item>CSA1201RSS</item>
+        <item>JNM7196SFSS</item>
+    </string-array>
+    <string-array name="models_r_ge">
+        <item>(Model)</item>
+        <item>CFE29TSDSS</item>
+        <item>CZS25TSESS</item>
+        <item>PZS25KSESS</item>
+    </string-array>
+    <string-array name="models_r_lg">
+        <item>(Model)</item>
+        <item>LMX30995ST</item>
+        <item>LFX31945</item>
+        <item>LFX33975ST</item>
+    </string-array>
+    <string-array name="models_r_samsung">
+        <item>(Model)</item>
+        <item>RF28HFEDBSR</item>
+        <item>RF31FMESBSR</item>
+        <item>RF32FMQDBSR</item>
+    </string-array>
+
+</resources>

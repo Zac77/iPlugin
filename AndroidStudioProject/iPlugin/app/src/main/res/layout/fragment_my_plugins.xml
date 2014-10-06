@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_my_plugins"
+    tools:context=".MyPluginsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/layout_my_plugins_progressBar"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:src="@drawable/ntx_large"
+            android:contentDescription="@string/description_imageView_ntx_logo" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_progress"
+                android:background="@drawable/textview_border"
+                android:visibility="visible"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_downloading"
+                android:layout_gravity="center" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:id="@+id/progressBar_my_plugins"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/center_point"
+                android:layout_toLeftOf="@+id/center_point"
+                android:src="@drawable/ntx_energy"
+                android:contentDescription="@string/description_imageView_ntx_energy" />
+
+            <TextView
+                android:id="@+id/center_point"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/center_point"
+                android:layout_toEndOf="@+id/center_point"
+                android:src="@drawable/ntx_iot"
+                android:contentDescription="@string/description_imageView_ntx_iot" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_my_plugins_content"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_plugins" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height_in_my_plugins_fragment"
+            android:id="@+id/textView_message_in_my_plugins"
+            android:background="@drawable/textview_border"
+            android:visibility="gone"
+            android:gravity="center|center_vertical|center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_refresh_in_shop"
+            android:id="@+id/button_refresh_in_my_plugins" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_new_plugin"
+            android:id="@+id/button_add_new_plugin" />
+
+    </LinearLayout>
+</FrameLayout>
