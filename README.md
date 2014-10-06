@@ -13,4 +13,5 @@ Project Goals
 (2)Commercialize the concert to make a consumer product where every home and business can save energy and money.
 (3)Implement the idea using the Gemalto Board and platform to simulate the actual monitoring and saving.
 
-For more details, please go to http://collabfinder.com/project/991/ntx-app-challenge-iplugin
+For more details, please go to http://collabfinder.com/project/991/ntx-app-challenge-iplugin and you can go to http://youtu.be/X4c9NWIz6js watch the promotional video.
+
